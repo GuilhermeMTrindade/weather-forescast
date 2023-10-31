@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Poppins:ital@1&family=Raleway&display=swap" rel="stylesheet">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <input class="input-city" placeholder="Digite o nome da cidade">
+
+        <button class="search-button" onclick="pressButton()">
+            <img src="/magnifying-glass-icon.png" alt="Ícone de Lupa" class="search-image">
+        </button>
+
+        <div class = "sub-one-container">
+            <h2 class = "city">Tempo em São Paulo</h2>
+
+            <p class ="temperature">21 ºC</p>
+
+            <div class="sub-two-container">
+                <img src="/cloud-icon.png" alt="Ícone de tempo Nublado" class="icon-cloud">
+                <p class ="weather-text">Nublado</p>
+            </div>
+
+            <p class = "humidity">Umidade: 76%</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</html
