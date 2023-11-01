@@ -52,8 +52,8 @@ body {
 
 }
 
-.icon-cloud {
-    width: 30px;
+.icon-weather {
+    width: 40px;
     height: auto;
 }
 
@@ -61,7 +61,7 @@ body {
     margin-top: 20px;
 }
 
-.city{
+.city-name{
     color: #ffffff;
     font-size: 22px;
     font-weight: 275;
@@ -83,9 +83,9 @@ body {
 
 .weather-text{
     color: #ffffff;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 225;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .humidity{
